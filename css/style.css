@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&family=Ms+Madi&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/* tela de carregamento css */
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background-image: linear-gradient(to left bottom, #260330, #2e043a, #370444, #40034e, #4a0259);
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #ff5733;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+/* tela de carregamento css */
+.banner-area {
+    
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+}
+.banner-area h3 {
+	font-size: 100px;
+	text-transform: capitalize;
+	color: #fff;
+	margin: 0 0 40px 0;
+	font-family: cookie;
+    text-shadow: 3px 3px 3px black;
+}
+.banner-area h2 {
+    font-family: Bangers;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 3em;
+	line-height: 0;
+    text-shadow: 3px 3px 3px black;
+}
+.banner-area h2 span {
+	color: deepskyblue;
+}
+.banner-area a {
+    font-family: Bangers;
+	display: inline-block;
+	margin-top: 50px;
+	text-decoration: none;
+	color: #fff;
+	background: deepskyblue;
+	padding: 10px 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+@media (max-width:800px) {
+	nav a {
+		font-size: 11px;
+		margin: 0 10px;
+	}
+	.banner-area h2 {
+		font-size: 1.7em;
+	}
+	.banner-area h3 {
+		margin: 0 0 20px 0;
+		font-size: 70px;
+	}
+}  
+/*  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to left bottom, #260330, #2e043a, #370444, #40034e, #4a0259);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#menu{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff10;
+}
+#logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff30;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+    font-family: Bangers;
+    font-size: 25px;
+}
+#menu a:hover{
+    transition: 0.5s;
+    background-color: #ffffff10;;
+}
+
+#rodape{
+    display: flex;
+    margin-top: 450px;
+    width: 100%;
+    height: 245px;
+    background-color: #260330;
+    justify-content: center;
+    align-items: center;
+}
+#rodape p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: Bangers;
+    padding: 10px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Site usado para teste, de html e css!">
+</head>
+
+<body>
+
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+
+        <div id="menu">
+            <div id="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <a href="">Home</a>
+            <a href="">Produtos</a>
+            <a href="">Sobre</a>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="banner-area">
+            <h3>Everton Macieira</h3>
+            <h2>O que fazemos: <span class="typed2"></span></h2>
+            <a href="#">Veja mais</a>
+        </div>
+    </section>
+
+    <footer>
+        <div id="rodape">
+            <div>
+                <p>Whatsapp: 11 99999-9999</p>
+                <p>Facebook: Facebook.com/nome_qualquer</p>
+                <p>Instagram: @qualquernome</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+
+    <script src="typed.js"></script>
+
+    <script>
+        var typed = new Typed(".typed2", {
+            strings: [
+                "front-end e back-end",
+                "Landing pages",
+                "Somos full stack"
+            ],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
