@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <div class="loader_bg">
         <div class="loader"></div>
     </div>
@@ -35,7 +34,8 @@
             <h1>Quem sou!</h1>
             <p>Olá, primeiramente gostaria de agradecer sua visita!</p>
 
-            <p>Me chamo Everton, tenho 26 anos! sou de São Paulo, estudo desenvolvimento web a 1 ano, então sempre fui muito curioso, e sempre pesquisei bastante, gosto muito de desafios,
+            <p>Me chamo Everton, tenho 26 anos! sou de São Paulo, estudo desenvolvimento web a 1 ano, então sempre fui
+                muito curioso, e sempre pesquisei bastante, gosto muito de desafios,
                 estudo em outras áreas além de desenvolvimento web. </p>
 
             <img src="./img/logo.png" alt="">
@@ -51,7 +51,7 @@
                 <li>Mais em breve...</li>
             </ul>
         </div>
-    </main>
+    </main>g
 
 
 
@@ -62,7 +62,11 @@
             $('.loader_bg').fadeToggle();
         }, 1500);
     </script>
-
+<!-- efeito confetes ao abrir o navegador -->
+    
+    <script src="confete.js"></script>
+    <script>confetti.start()</script>
+    <script>setTimeout(function () { confetti.stop(); }, 5000)</script>
 </body>
 
 </html>
