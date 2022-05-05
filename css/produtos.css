@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&family=Ms+Madi&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    margin-top: 20%;
+    font-family: Bangers;
+}
+img{
+    width: 200px;
+}
+
+li{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 5%;
+    background-color: #ffffff10;
+}
+li:hover{
+    cursor: pointer;
+}
+li img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+li:hover{
+    border: 1px solid goldenrod;
+    transition: 0.5s;
+}
+li p{
+    padding: 10px;
+}
+li a{
+    text-shadow: 1px 1px 30px black;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+li a:hover{
+    background-color: rgb(94, 209, 248);
+    transition: 0.5s;
+}

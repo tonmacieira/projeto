@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sobre.css">
     <meta name="description" content="Site usado para teste, de html e css!">
 </head>
 
@@ -29,15 +30,30 @@
 
     </header>
 
-    <section>
-        <div class="banner-area">
-            <h3>Everton Macieira</h3>
-            <h2>O que fazemos: <span class="typed2"></span></h2>
-            <a href="#">Veja mais</a>
-        </div>
-    </section>
+    <main>
+        <div id="container">
+            <h1>Quem sou!</h1>
+            <p>Olá, primeiramente gostaria de agradecer sua visita!</p>
 
-    
+            <p>Me chamo Everton, tenho 26 anos! sou de São Paulo, estudo desenvolvimento web a 1 ano, então sempre fui muito curioso, e sempre pesquisei bastante, gosto muito de desafios,
+                estudo em outras áreas além de desenvolvimento web. </p>
+
+            <img src="./img/logo.png" alt="">
+
+            <h2>Formações</h2>
+            <ul>
+                <li>Pentest: Hackersec</li>
+                <li>Pentest: Solyd</li>
+                <li>Pentest: Desec</li>
+                <li>HTML,CSS e JavaScrip : ProgramadorBR</li>
+                <li>Node: Alura</li>
+                <li>Python: Solyd</li>
+                <li>Mais em breve...</li>
+            </ul>
+        </div>
+    </main>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -47,20 +63,6 @@
         }, 1500);
     </script>
 
-    <script src="typed.js"></script>
-
-    <script>
-        var typed = new Typed(".typed2", {
-            strings: [
-                "front-end e back-end",
-                "Landing pages",
-                "Somos full stack"
-            ],
-            typeSpeed: 80,
-            backSpeed: 50,
-            loop: true
-        });
-    </script>
 </body>
 
 </html>

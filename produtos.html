@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produtos.css">
     <meta name="description" content="Site usado para teste, de html e css!">
 </head>
 
@@ -29,15 +30,34 @@
 
     </header>
 
-    <section>
-        <div class="banner-area">
-            <h3>Everton Macieira</h3>
-            <h2>O que fazemos: <span class="typed2"></span></h2>
-            <a href="#">Veja mais</a>
-        </div>
-    </section>
+    <main>
+        <ul>
+            <li>
+                <h2>Produto 1</h2>
+                <img src="./img/engrenagem.png" alt="">
+                <p>info do produto 1</p>
+                <a href="">Comprar</a>
+            </li>
 
-    
+            <li>
+                <h2>Produto 2</h2>
+                <img src="./img/ferramentas.png" alt="">
+                <p>info do produto 2</p>
+                <a href="">Comprar</a>
+            </li>
+
+            <li>
+                <h2>Produto 3</h2>
+                <img src="./img/logo.png" alt="">
+                <p>info do produto 3</p>
+                <a href="">Comprar</a>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -47,20 +67,7 @@
         }, 1500);
     </script>
 
-    <script src="typed.js"></script>
 
-    <script>
-        var typed = new Typed(".typed2", {
-            strings: [
-                "front-end e back-end",
-                "Landing pages",
-                "Somos full stack"
-            ],
-            typeSpeed: 80,
-            backSpeed: 50,
-            loop: true
-        });
-    </script>
 </body>
 
 </html>
