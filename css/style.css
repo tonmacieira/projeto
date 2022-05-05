@@ -162,3 +162,10 @@ body{
     font-family: Bangers;
     padding: 10px;
 }
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+  #logo img{
+    margin-right: 1px;
+  }
+}
