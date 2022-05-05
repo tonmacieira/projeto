@@ -61,4 +61,7 @@ li a:hover{
         padding: 10px;
         display: inline-block;
     }
+    li{
+        margin-top: 10px;
+    }
 }
