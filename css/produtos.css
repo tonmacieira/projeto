@@ -49,3 +49,11 @@ li a:hover{
     background-color: rgb(94, 209, 248);
     transition: 0.5s;
 }
+
+@media (min-width: 300px) and (max-width: 500px) {
+    ul{
+        margin-top: 10px;
+        padding: 10px;
+        display: inline-block;
+    }
+}
